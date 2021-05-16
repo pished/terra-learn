@@ -1,0 +1,1 @@
+will setup an auto scale group on aws using the asg-rolling-deployment module

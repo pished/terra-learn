@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 module "webserver_cluster" {
-    source = "../../../modules/services/webserver-cluster"
+    source = "github.com/pished/learn-terra-modules//services/webserver-cluster?ref=v0.0.1"
 
     cluster_name = "webservers-stage"
     db_remote_state_bucket = "terra-remote-state-store"

@@ -6,4 +6,5 @@ variable "db_password" {
 variable "db_name" {
     description = "name of the database"
     type = string
+    default = "learn_terra_db_stage"
 }
