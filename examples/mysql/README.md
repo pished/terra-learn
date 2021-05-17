@@ -1,9 +1,8 @@
-# ASG example
+# MySQL example
 
 This folder contains a [Terraform](https://www.terraform.io/) configuration that shows an example of how to 
-use the [asg-rolling-deploy module](../../modules/cluster/asg-rolling-deploy) to deploy a cluster of web servers 
-(using [EC2](https://aws.amazon.com/ec2/) and [Auto Scaling](https://aws.amazon.com/autoscaling/)) in an 
-[Amazon Web Services (AWS) account](http://aws.amazon.com/). 
+use the [mysql module](../../modules/data-stores/mysql) to deploy a MySQL database  (using 
+[RDS](https://aws.amazon.com/rds/) in an [Amazon Web Services (AWS) account](http://aws.amazon.com/). 
 
 This code is based off of Chapter 6, "Production-grade Terraform code", of 
 *[Terraform: Up and Running](http://www.terraformupandrunning.com)*.
@@ -12,6 +11,7 @@ This code is based off of Chapter 6, "Production-grade Terraform code", of
 
 * You must have [Terraform](https://www.terraform.io/) installed on your computer. 
 * You must have an [Amazon Web Services (AWS) account](http://aws.amazon.com/).
+* You must set the TF_VAR_db_password env variable
 
 Please note that this code was written for Terraform 0.14.x.
 

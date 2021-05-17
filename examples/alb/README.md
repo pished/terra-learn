@@ -1,9 +1,9 @@
-# ASG example
+# ALB example
 
 This folder contains a [Terraform](https://www.terraform.io/) configuration that shows an example of how to 
-use the [asg-rolling-deploy module](../../modules/cluster/asg-rolling-deploy) to deploy a cluster of web servers 
-(using [EC2](https://aws.amazon.com/ec2/) and [Auto Scaling](https://aws.amazon.com/autoscaling/)) in an 
-[Amazon Web Services (AWS) account](http://aws.amazon.com/). 
+use the [alb module](../../modules/networking/alb) to deploy a load balancer 
+(using [ELB](https://aws.amazon.com/elasticloadbalancing/)) in an [Amazon Web Services (AWS) 
+account](http://aws.amazon.com/). 
 
 This code is based off of Chapter 6, "Production-grade Terraform code", of 
 *[Terraform: Up and Running](http://www.terraformupandrunning.com)*.
