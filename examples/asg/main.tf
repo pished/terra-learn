@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "asg" {
-  source             = "../../cluster/asg-rolling-deployment"
+  source             = "../../modules/cluster/asg-rolling-deployment"
   cluster_name       = var.cluster_name
   ami                = "ami-0c55b159cbfafe1f0"
   instance_type      = "t2.micro"
